@@ -1,7 +1,7 @@
 body {
     background-color: #efeee7;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    margin: 1;
+    margin: 0;
     padding: 0%;
     color: #333333
 }
@@ -14,6 +14,7 @@ header {
 h1 {
     color: #eee;
     font-size: 28px;
+    padding: 20px;
 }
 
 h2{
@@ -36,8 +37,9 @@ h2{
 
 #mainImage {
     float: left;
-    width: 200px;
-    margin: 30%
+    width: 100px;
+    margin: 30%;
+    padding: 20px;
 }
 
 a:link {
@@ -48,4 +50,8 @@ a:link {
 a:visited {
     color: #d21034;
     background-color: gray;
+}
+
+p {
+    font-size: 10px;
 }
